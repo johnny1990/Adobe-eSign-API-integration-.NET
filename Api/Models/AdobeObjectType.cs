@@ -1,15 +1,18 @@
-﻿using System;
+﻿using Api.Controllers;
+using Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library
+
+namespace Api.Models
 {
     public class AdobeObjectType
     {
-        private RestAPI API;
-        public AdobeObjectType(RestAPI api)
+        private RESTApiController API;
+        public AdobeObjectType(RESTApiController api)
         {
             API = api;
         }
